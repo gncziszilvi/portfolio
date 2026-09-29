@@ -4,28 +4,55 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Street Sounds – Szilvi Gönczi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class="site-header">
-    <div class="wrap"><nav><a href="index.html">Work</a></nav></div>
+<body class="project-page">
+  <header class="p-header">
+    <a class="p-nav" href="index.html">Work</a>
+    <div class="p-title">STREET SOUNDS</div>
   </header>
 
-  <main class="wrap project">
-    <a class="back" href="index.html">← Back to Work</a>
-    <h1>Street Sounds</h1>
-    <p class="year">2025</p>
-    <p class="description">Project description goes here.</p>
-
-    <div class="gallery">
-      <!-- Add one <img> per project image, e.g. images/street-sounds-1.jpg -->
-      <img src="images/street-sounds.jpg" alt="Street Sounds">
+  <main>
+    <div class="hero">
+      <img src="images/street-sounds-hero.jpg" alt="Street Sounds">
+      <div class="hero-caption" style="background:#4a4a42"><span>STREET SOUNDS</span><i>|</i><span>2025</span></div>
     </div>
+
+    <section class="p-intro">
+      <div class="statement-row">
+        <p class="statement">ONE-LINE PROJECT STATEMENT GOES HERE</p>
+        <span class="vr"></span>
+        <span class="p-year">2025</span>
+      </div>
+      <h1 class="p-h1">STREET<br>SOUNDS</h1>
+      <hr class="short-rule">
+      <p class="p-lead">Short intro line goes here.</p>
+      <p class="p-desc">Project description goes here.</p>
+    </section>
+
+    <section class="collection">
+      <div class="section-label"><span>PATTERN COLLECTION</span><i></i><b></b></div>
+      <div class="tiles">
+      </div>
+    </section>
+
+    <section class="showcase">
+      <div class="showcase-caption"><strong>STREET SOUNDS</strong><span>| PATTERN COLLECTION</span></div>
+
+    </section>
+
+    <section class="related">
+      <h2>You may also like</h2>
+      <div class="rel-grid">
+      <a class="rel-card" href="garden-memories.html"><img src="images/garden-memories.jpg" alt="Garden Memories" loading="lazy"><strong>GARDEN MEMORIES</strong><span>2026</span></a>
+      <a class="rel-card" href="veil-of-fog.html"><img src="images/veil-of-fog.jpg" alt="Veil of Fog" loading="lazy"><strong>VEIL OF FOG</strong><span>2025</span></a>
+      <a class="rel-card" href="surface-echoes.html"><img src="images/surface-echoes.jpg" alt="Surface Echoes" loading="lazy"><strong>SURFACE ECHOES</strong><span>2025</span></a>
+      </div>
+    </section>
   </main>
 
-  <footer class="wrap site-footer">
-    <a href="#">↑ Back to Top</a>
-    <span>© Szilvi Gönczi</span>
-  </footer>
+  <footer class="site-footer">© Szilvi Gönczi</footer>
+  <a class="to-top" href="#" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V4M5 11l7-7 7 7"/></svg></a>
 </body>
 </html>
